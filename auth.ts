@@ -21,7 +21,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             role: "admin",
           }
         }
-
         return null
       },
     }),
